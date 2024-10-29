@@ -6,3 +6,6 @@ To crate a react app
 Step 2 => npm install 
 To install node_modules for 
 
+Project structure :-
+
+
