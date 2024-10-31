@@ -28,11 +28,28 @@ Reconciliation:
 - Compares current and previous Virtual DOM versions to find updates.
 - Minimizes direct DOM manipulation for faster, optimized updates.
 
-Install Tailwind css:
-- https://tailwindcss.com/docs/installation
-- npm install -D tailwindcss
-- npx tailwindcss init
+Install Tailwind CSS:
+
+1. Visit the Tailwind CSS installation guide: 
+   - https://tailwindcss.com/docs/installation
+
+2. Install Tailwind CSS as a development dependency:
+   - Run the following command in your terminal:
+     npm install -D tailwindcss
+
+3. Initialize Tailwind CSS to create a configuration file:
+   - Execute the following command:
+     npx tailwindcss init
 
 Props:
 
+Props (short for properties) are used to pass data from one component to another in React, allowing components to be dynamic and reusable.
+
+Example Props for the Card Component:
+- username: (string) The name of the user displayed on the card.
+- btnText: (string, optional) The text to be displayed on the button. Default value is "Follow".
+
+Usage:
+<Card username="DevNeon" btnText="Follow 1" />
+This will render a card with the username "DevNeon" and a button labeled "Follow 1".
 
