@@ -1,11 +1,38 @@
+Step 1: Create a new React app
+=> Command: npm create vite@latest
+- This command initializes a new Vite project with React. 
+- Vite is a modern build tool that offers fast development and optimized builds.
 
+Step 2: Install dependencies
+=> Command: npm install
+- This command installs all the required node_modules for your React application. 
+- These modules include React and other dependencies needed for your app to run.
 
-Step 1 => npm create vite@latest
-To crate a react app
+Lecture 5:
+Assignment: 
+- Implement functionality to ensure the counter value remains between a maximum of 20 and a minimum of 0.
+- This means you should modify the `addValue` and `removeValue` functions to include these constraints.
 
-Step 2 => npm install 
-To install node_modules for 
+Virtual DOM:
+- Lightweight representation of the actual DOM in memory.
+- Helps React efficiently update the browser’s DOM by comparing changes.
+- Only necessary updates are made to the real DOM for better performance.
 
-Project structure :-
+Fiber: 
+- React’s internal engine for handling the reconciliation algorithm.
+- Breaks rendering into smaller, prioritized tasks for smoother performance.
+- Allows asynchronous rendering, making apps more responsive.
+
+Reconciliation:
+- Process of determining what changes are needed in the DOM.
+- Compares current and previous Virtual DOM versions to find updates.
+- Minimizes direct DOM manipulation for faster, optimized updates.
+
+Install Tailwind css:
+- https://tailwindcss.com/docs/installation
+- npm install -D tailwindcss
+- npx tailwindcss init
+
+Props:
 
 
