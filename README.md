@@ -1,21 +1,16 @@
-```markdown
 # React App Setup and Concepts
 
 ## Step 1: Create a New React App
 To create a new React application, run the following command:
 
-```
 npm create vite@latest
-```
 
 This command initializes a new Vite project with React. Vite is a modern build tool that offers fast development and optimized builds.
 
 ## Step 2: Install Dependencies
 Once your project is created, navigate into the project directory and install the required dependencies:
 
-```
 npm install
-```
 
 This command installs all the required `node_modules` for your React application. These modules include React and other dependencies needed for your app to run.
 
@@ -42,15 +37,11 @@ To install Tailwind CSS, follow these steps:
 
 2. Install Tailwind CSS as a development dependency by running the following command in your terminal:
 
-```
 npm install -D tailwindcss
-```
 
 3. Initialize Tailwind CSS to create a configuration file:
 
-```
 npx tailwindcss init
-```
 
 ## Props in React
 Props (short for properties) are used to pass data from one component to another in React, allowing components to be dynamic and reusable.
@@ -60,9 +51,6 @@ Props (short for properties) are used to pass data from one component to another
 - **btnText**: (string, optional) The text to be displayed on the button. Default value is "Follow".
 
 ### Usage:
-```
 <Card username="DevNeon" btnText="Follow 1" />
-```
 
 This will render a card with the username "DevNeon" and a button labeled "Follow 1".
-```
