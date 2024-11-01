@@ -1,5 +1,3 @@
-Got it! Here’s the README with the commands as code blocks and the rest as plain text:
-
 ```markdown
 # React App Setup and Concepts
 
@@ -68,5 +66,3 @@ Props (short for properties) are used to pass data from one component to another
 
 This will render a card with the username "DevNeon" and a button labeled "Follow 1".
 ```
-
-You can save this as `README.md`. Let me know if you need anything else!
