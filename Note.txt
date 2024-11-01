@@ -53,3 +53,4 @@ Usage:
 <Card username="DevNeon" btnText="Follow 1" />
 This will render a card with the username "DevNeon" and a button labeled "Follow 1".
 
+
