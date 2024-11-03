@@ -4,7 +4,7 @@ Step 1: Create a new React app
 - Vite is a modern build tool that offers fast development and optimized builds.
 
 Step 2: Install dependencies
-=> Command: npm install
+=> Command: npm install 
 - This command installs all the required node_modules for your React application. 
 - These modules include React and other dependencies needed for your app to run.
 
