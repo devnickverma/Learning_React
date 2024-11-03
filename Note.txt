@@ -28,7 +28,7 @@ Reconciliation:
 - Compares current and previous Virtual DOM versions to find updates.
 - Minimizes direct DOM manipulation for faster, optimized updates.
 
-Install Tailwind CSS:
+Install Tailwind CSS: 
 
 1. Visit the Tailwind CSS installation guide: 
    - https://tailwindcss.com/docs/installation
